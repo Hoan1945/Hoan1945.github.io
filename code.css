@@ -1,0 +1,318 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.opacity1 {
+    opacity: 1!important;
+}
+.an{opacity: 0;}
+
+.menu i {
+    position: absolute;
+    top: 14px;
+    left: 16px;
+}
+
+p.menu1 {
+    padding: 24px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+p.menu1:hover {
+    background: #ffffff5e;
+}
+
+p.logo {
+    background: #156b86;
+    padding: 30px;
+}
+
+.menuxanh {
+    position: fixed;
+    width: 15%;
+    height: 100%;
+    background: #1d809f;
+    right: 0;
+    color: white;
+    text-align: left;
+    transform: translateX(100%);
+    transition: 1s;
+}
+
+.divao {
+    transform: translateX(0%);
+}
+
+.menu, .back-to-top {
+    position: fixed;
+    right: 24px;
+    z-index: 9999;
+    font-size: 18px;
+    color: white;
+    background: #00000085;
+    width: 48px;
+    height: 48px;
+    line-height: 48px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.menu {
+    top: 24px;
+}
+
+.back-to-top {bottom: 24px;opacity: 0;}
+
+.menu:hover {
+    background: #000000d1;
+}
+
+p.copyright {
+    font-size: 14px;
+    color: #6c757d;
+}
+
+.icon i {
+    background: #1d809f;
+    color: white;
+    width: 64px;
+    height: 64px;
+    font-size: 24px;
+    line-height: 64px;
+    border-radius: 50%;
+    margin: 0px 12px 48px 12px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.icon i:hover {
+    background: #0b5f79;
+}
+
+.icon {
+    padding-top: 86px;
+}
+
+footer {
+    height: 300px;
+}
+
+.khoi7 {
+    height: 400px;
+}
+
+h4.tieude6 {
+    color: white;
+    font-size: 36px;
+    padding-top: 72px;
+}
+
+.khoi6 {
+    background: #1d809f;
+    height: 350px;
+}
+
+.motkhoi:hover .layer2 {background: #1d809fc4;box-shadow: inset 0 0 0 30px white;}
+
+p.motanho5 {
+    font-size: 18px;
+    margin-left: 64px;
+    font-weight: 300;
+    width: 400px;
+}
+
+h6.tieudenho5 {
+    font-size: 18px;
+    margin-left: 64px;
+    margin-top: 268px;
+    text-transform: uppercase;
+}
+
+.layer2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    text-align: left;
+    width: 100%;
+    height: 100%;
+    background: #1d809f00;
+    color: white;
+    transition: 0.4s;
+}
+
+img {
+    width: 100%;
+}
+
+.layer1 {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.motkhoi {
+    width: 50%;
+    position: relative;
+    height: 380px;
+    cursor: pointer;
+    transition: 0.4s;
+    float: left;
+}
+
+.khoito {
+    width: 1140px;
+    margin: auto;
+    margin-top: 64px;
+    height: 760px;
+    margin-bottom: 96px;
+}
+
+.khoi4 {
+    height: 600px;
+    background: url(https://blackrockdigital.github.io/startbootstrap-stylish-portfolio/img/bg-callout.jpg);
+}
+
+.cot i {
+    font-size: 36px;
+    width: 96px;
+    height: 96px;
+    background: #fff;
+    line-height: 96px;
+    border-radius: 50%;
+    color: #1d809f;
+    margin-bottom: 24px;
+}
+
+.cot {
+    width: 262.5px;
+}
+
+.chiacot {
+    width: 1140px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 64px;
+    padding-bottom: 64px;
+}
+
+.tieude {
+    font-size: 48px;
+}
+
+.tieude4 {
+    padding-top: 200px;
+}
+
+p.chuanghira {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #ecb807;
+    padding-top: 108px;
+    margin-bottom: 12px;
+}
+
+.khoi3 {
+    background: #1d809f;
+    color: white;
+}
+
+p.mota2 {
+    font-size: 21px;
+    font-weight: 300;
+    margin-top: 12px;
+}
+
+h4.tieude2 {
+    font-size: 40px;
+    padding-top: 128px;
+}
+
+.khoi2 {
+    height: 450px;
+}
+
+.nut {
+    color: white;
+    border: none;
+    padding: 24px 36px;
+    border-radius: 3px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 64px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.nut62 {
+    background: #343a40;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.nut61 {
+    color: black!important;
+    background: #f8f9fa;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.nut2 {
+    background: #343a40;
+}
+
+.nut2:hover, .nut62:hover {
+    background: #101214;
+}
+
+.nut61:hover {
+    background: #d1d7de;
+}
+
+.nut1 {
+    background-color: #1d809f;
+}
+
+.nut1:hover {
+    background: #155d74;
+}
+
+p.mota {
+    color: #212529;
+    font-size: 36px;
+    font-weight: 600;
+    font-style: italic;
+}
+
+h1.tieude1 {
+    font-size: 88px;
+    color: #212529;
+}
+
+html {
+    height: 100%;
+}
+
+.khoi1 {
+    background: url(https://blackrockdigital.github.io/startbootstrap-stylish-portfolio/img/bg-masthead.jpg);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    height: 100%;
+    text-align: center;
+}
+
+h5.tieudenho {
+    font-size: 24px;
+    margin-bottom: 16px;
+}
